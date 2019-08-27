@@ -1,4 +1,4 @@
-linux (4.15.0-58.64) bionic; urgency=medium
+linux (4.15.0-58.64+patch1) bionic; urgency=medium
 
   * unable to handle kernel NULL pointer dereference at 000000000000002c (IP:
     iget5_locked+0x9e/0x1f0) (LP: #1838982)
