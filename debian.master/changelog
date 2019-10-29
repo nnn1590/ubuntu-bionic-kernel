@@ -1,4 +1,4 @@
-linux (4.15.0-66.75) bionic; urgency=medium
+linux (4.15.0-66.75+patch1) bionic; urgency=medium
 
   * bionic/linux: 4.15.0-66.75 -proposed tracker (LP: #1846131)
 
