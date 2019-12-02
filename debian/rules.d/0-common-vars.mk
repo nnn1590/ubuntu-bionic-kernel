@@ -235,7 +235,7 @@ kmake = make ARCH=$(build_arch) \
 	CONFIG_DEBUG_SECTION_MISMATCH=y \
 	KBUILD_BUILD_VERSION="$(uploadnum)" \
 	LOCALVERSION= localver-extra= \
-	CFLAGS_MODULE="-DPKG_ABI=$(abinum)"
+	CFLAGS_MODULE="-DPKG_ABI=$(shell echo $(abinum) | sed 's/$(abi_suffix)//g')"
 ifneq ($(LOCAL_ENV_CC),)
 kmake += CC="$(LOCAL_ENV_CC)" DISTCC_HOSTS="$(LOCAL_ENV_DISTCC_HOSTS)"
 endif

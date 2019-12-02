@@ -1,4 +1,4 @@
-linux (4.15.0-70.79+patch1) bionic; urgency=medium
+linux (4.15.0-70.79+vanilla) bionic; urgency=medium
 
   * Ubuntu-5.0.0-33.35 introduces KVM regression with old Intel CPUs and Linux
     guests (LP: #1851709)
